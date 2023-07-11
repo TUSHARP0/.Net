@@ -1,0 +1,12 @@
+C:\Users\TUSHAR\dotnet\hrlib\obj\Debug\net7.0\hrlib.csproj.AssemblyReference.cache
+C:\Users\TUSHAR\dotnet\hrlib\obj\Debug\net7.0\hrlib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TUSHAR\dotnet\hrlib\obj\Debug\net7.0\hrlib.AssemblyInfoInputs.cache
+C:\Users\TUSHAR\dotnet\hrlib\obj\Debug\net7.0\hrlib.AssemblyInfo.cs
+C:\Users\TUSHAR\dotnet\hrlib\obj\Debug\net7.0\hrlib.csproj.CoreCompileInputs.cache
+C:\Users\TUSHAR\dotnet\hrlib\bin\Debug\net7.0\hrlib.deps.json
+C:\Users\TUSHAR\dotnet\hrlib\bin\Debug\net7.0\hrlib.dll
+C:\Users\TUSHAR\dotnet\hrlib\bin\Debug\net7.0\hrlib.pdb
+C:\Users\TUSHAR\dotnet\hrlib\obj\Debug\net7.0\hrlib.dll
+C:\Users\TUSHAR\dotnet\hrlib\obj\Debug\net7.0\refint\hrlib.dll
+C:\Users\TUSHAR\dotnet\hrlib\obj\Debug\net7.0\hrlib.pdb
+C:\Users\TUSHAR\dotnet\hrlib\obj\Debug\net7.0\ref\hrlib.dll
