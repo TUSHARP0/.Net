@@ -1,0 +1,15 @@
+C:\Users\TUSHAR\dotnet\Mathematic\obj\Debug\net7.0\Mathematic.csproj.AssemblyReference.cache
+C:\Users\TUSHAR\dotnet\Mathematic\obj\Debug\net7.0\Mathematic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TUSHAR\dotnet\Mathematic\obj\Debug\net7.0\Mathematic.AssemblyInfoInputs.cache
+C:\Users\TUSHAR\dotnet\Mathematic\obj\Debug\net7.0\Mathematic.AssemblyInfo.cs
+C:\Users\TUSHAR\dotnet\Mathematic\obj\Debug\net7.0\Mathematic.csproj.CoreCompileInputs.cache
+C:\Users\TUSHAR\dotnet\Mathematic\bin\Debug\net7.0\Mathematic.exe
+C:\Users\TUSHAR\dotnet\Mathematic\bin\Debug\net7.0\Mathematic.deps.json
+C:\Users\TUSHAR\dotnet\Mathematic\bin\Debug\net7.0\Mathematic.runtimeconfig.json
+C:\Users\TUSHAR\dotnet\Mathematic\bin\Debug\net7.0\Mathematic.dll
+C:\Users\TUSHAR\dotnet\Mathematic\bin\Debug\net7.0\Mathematic.pdb
+C:\Users\TUSHAR\dotnet\Mathematic\obj\Debug\net7.0\Mathematic.dll
+C:\Users\TUSHAR\dotnet\Mathematic\obj\Debug\net7.0\refint\Mathematic.dll
+C:\Users\TUSHAR\dotnet\Mathematic\obj\Debug\net7.0\Mathematic.pdb
+C:\Users\TUSHAR\dotnet\Mathematic\obj\Debug\net7.0\Mathematic.genruntimeconfig.cache
+C:\Users\TUSHAR\dotnet\Mathematic\obj\Debug\net7.0\ref\Mathematic.dll
