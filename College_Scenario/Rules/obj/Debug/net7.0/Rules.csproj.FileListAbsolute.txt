@@ -1,0 +1,12 @@
+C:\Users\TUSHAR\dotnet\Rules\bin\Debug\net7.0\Rules.deps.json
+C:\Users\TUSHAR\dotnet\Rules\bin\Debug\net7.0\Rules.dll
+C:\Users\TUSHAR\dotnet\Rules\bin\Debug\net7.0\Rules.pdb
+C:\Users\TUSHAR\dotnet\Rules\obj\Debug\net7.0\Rules.csproj.AssemblyReference.cache
+C:\Users\TUSHAR\dotnet\Rules\obj\Debug\net7.0\Rules.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TUSHAR\dotnet\Rules\obj\Debug\net7.0\Rules.AssemblyInfoInputs.cache
+C:\Users\TUSHAR\dotnet\Rules\obj\Debug\net7.0\Rules.AssemblyInfo.cs
+C:\Users\TUSHAR\dotnet\Rules\obj\Debug\net7.0\Rules.csproj.CoreCompileInputs.cache
+C:\Users\TUSHAR\dotnet\Rules\obj\Debug\net7.0\Rules.dll
+C:\Users\TUSHAR\dotnet\Rules\obj\Debug\net7.0\refint\Rules.dll
+C:\Users\TUSHAR\dotnet\Rules\obj\Debug\net7.0\Rules.pdb
+C:\Users\TUSHAR\dotnet\Rules\obj\Debug\net7.0\ref\Rules.dll

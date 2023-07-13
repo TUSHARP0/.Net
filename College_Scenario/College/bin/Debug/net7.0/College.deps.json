@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "College/1.0.0": {
+        "dependencies": {
+          "Entitylib": "1.0.0",
+          "Rules": "1.0.0"
+        },
+        "runtime": {
+          "College.dll": {}
+        }
+      },
+      "Entitylib/1.0.0": {
+        "dependencies": {
+          "Rules": "1.0.0"
+        },
+        "runtime": {
+          "Entitylib.dll": {}
+        }
+      },
+      "Rules/1.0.0": {
+        "runtime": {
+          "Rules.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "College/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Entitylib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rules/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

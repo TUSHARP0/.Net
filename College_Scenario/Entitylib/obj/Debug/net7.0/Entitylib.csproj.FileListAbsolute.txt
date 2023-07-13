@@ -1,0 +1,15 @@
+C:\Users\TUSHAR\dotnet\Entitylib\obj\Debug\net7.0\Entitylib.csproj.AssemblyReference.cache
+C:\Users\TUSHAR\dotnet\Entitylib\obj\Debug\net7.0\Entitylib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TUSHAR\dotnet\Entitylib\obj\Debug\net7.0\Entitylib.AssemblyInfoInputs.cache
+C:\Users\TUSHAR\dotnet\Entitylib\obj\Debug\net7.0\Entitylib.AssemblyInfo.cs
+C:\Users\TUSHAR\dotnet\Entitylib\obj\Debug\net7.0\Entitylib.csproj.CoreCompileInputs.cache
+C:\Users\TUSHAR\dotnet\Entitylib\bin\Debug\net7.0\Entitylib.deps.json
+C:\Users\TUSHAR\dotnet\Entitylib\bin\Debug\net7.0\Entitylib.dll
+C:\Users\TUSHAR\dotnet\Entitylib\bin\Debug\net7.0\Entitylib.pdb
+C:\Users\TUSHAR\dotnet\Entitylib\bin\Debug\net7.0\Rules.dll
+C:\Users\TUSHAR\dotnet\Entitylib\bin\Debug\net7.0\Rules.pdb
+C:\Users\TUSHAR\dotnet\Entitylib\obj\Debug\net7.0\Entitylib.csproj.CopyComplete
+C:\Users\TUSHAR\dotnet\Entitylib\obj\Debug\net7.0\Entitylib.dll
+C:\Users\TUSHAR\dotnet\Entitylib\obj\Debug\net7.0\refint\Entitylib.dll
+C:\Users\TUSHAR\dotnet\Entitylib\obj\Debug\net7.0\Entitylib.pdb
+C:\Users\TUSHAR\dotnet\Entitylib\obj\Debug\net7.0\ref\Entitylib.dll
