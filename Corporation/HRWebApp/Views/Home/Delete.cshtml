@@ -1,0 +1,18 @@
+﻿@using BOL;
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Delete Employee</h1>
+</div>
+<div>
+<form action="/Home/Delete" method="post">
+        <div class="mb-3">
+            <label for="id" class="form-label">ID</label>
+            <input type="text" class="form-control" id="id" name="id">
+        </div>
+        <button type="submit" class="btn btn-danger">Submit</button>
+</form>
+</div>

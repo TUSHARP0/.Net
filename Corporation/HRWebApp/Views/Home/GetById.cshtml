@@ -1,0 +1,45 @@
+﻿@using BOL;
+
+@{
+    ViewData["Title"] = "GetById";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Update Form</h1>
+</div>
+<div>
+    @{
+        Employee foundemp = ViewBag.FOUNDEMP;
+        <form action="/Home/Update" method="post">
+        <div class="mb-3">
+            <label for="id" class="form-label">ID</label>
+            <input type="text" class="form-control" id="id" name="id" readonly value=@foundemp.ID >
+        </div>
+        <div class="mb-3">
+            <label for="empname" class="form-label">Employee Name</label>
+            <input type="text" class="form-control" id="empname" name="empname">
+        </div>
+        <div class="mb-3">
+            <label for="designation" class="form-label">Designation</label>
+            <input type="text" class="form-control" id="designation" name="designation">
+        </div>
+        <div class="mb-3">
+            <label for="department" class="form-label">Department</label>
+            <input type="text" class="form-control" id="department" name="department">
+        </div>
+        <div class="mb-3">
+            <label for="city" class="form-label">City</label>
+            <input type="text" class="form-control" id="city" name="city">
+        </div>
+        <div class="mb-3">
+            <label for="salary" class="form-label">Salary</label>
+            <input type="text" class="form-control" id="salary" name="salary">
+        </div>
+            <div class="mb-3">
+                <label for="joindate" class="form-label">Join Date</label>
+                <input type="date" class="form-control" id="joindate" name="joindate">
+            </div>
+        <button type="submit" class="btn btn-primary">Update</button>
+    </form>
+    }
+</div>

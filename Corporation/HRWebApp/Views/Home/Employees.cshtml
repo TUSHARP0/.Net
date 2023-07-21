@@ -1,0 +1,53 @@
+﻿@using BOL;
+
+@{
+    ViewData["Title"] = "ListOfEmployees";
+}
+
+<div class="text-center">
+    <h1 class="display-4">List of Employees</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Designation</th>
+                <th scope="col">Department</th>
+                <th scope="col">City</th>
+                <th scope="col">Salary</th>
+                <th scope="col">Join Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                @foreach (Employee e in ViewBag.ListOfEmployees)
+                {
+                    <tr>
+                        <td>@e.ID</td>
+                        <td>@e.Name</td>
+                        <td>@e.DESIGNATION</td>
+                        <td>@e.DEPARTMENT</td>
+                        <td>@e.CITY</td>
+                        <td>@e.SALARY</td>
+                        <td>@e.JOINDATE</td>
+                    </tr>
+                }
+            }
+            
+            
+        </tbody>
+    </table>
+</div>
+
+<div>
+    <br />
+    <form action="/Home/GetById" align="center">
+        <h3 align="center">Update Employee</h3>
+
+        <div class="mb-3" align="center">
+            <label for="id" class="form-label">ID<input type="text" class="form-control" id="id" name="id" size="20"></label>
+            
+        </div>
+        <button type="submit" class="btn btn-primary">Update</button>
+    </form>
+</div>
