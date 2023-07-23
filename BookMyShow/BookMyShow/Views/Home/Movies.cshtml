@@ -1,0 +1,76 @@
+﻿@using BOL;
+@{
+    ViewData["Title"] = "List Of Movies";
+}
+
+<div calss="text-center">
+    <h1 class="display-4" align="center">Movie Details</h1>
+<table class="table table-dark table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Movie Id</th>
+                <th scope="col">Movie Name</th>
+                <th scope="col">Actor Name</th>
+                <th scope="col">Ticket Price</th>
+                <th scope="col">Release Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                @foreach (Movie m in ViewBag.ListOfMovies)
+                {
+                    <tr>
+                        <td>@m.MOVIEID</td>
+                        <td>@m.MOVIENAME</td>
+                        <td>@m.ACTORNAME</td>
+                        <td>@m.PRICE</td>
+                        <td>@m.RELEASEDATE</td>
+                    </tr>
+                }
+            }
+        </tbody>
+</table>
+</div>
+<br />
+
+<form action="/Home/Movies" method="delete">
+    <h4 align="center">Remove Movie</h4>
+    <div class="form-group" align="center">
+        <label class="col-md-4 control-label">Movie Id</label>
+        <div class="col-md-4 inputGroupContainer">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                <input name="movieId" id="movieId" placeholder="Movie Id" class="form-control" type="text">
+            </div>
+        </div>
+    </div>
+    <div class="form-group" align="center">
+        <label class="col-md-4 control-label"></label>
+        <div class="col-md-4">
+           
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type="submit" class="btn btn-danger" formaction="/Home/Remove" formmethod="post">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRemove Movie <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>
+        </div>
+    </div>
+</form>
+    <br />
+
+<form action="/Home/GetById">
+    <h4 align="center">Get Movie</h4>
+            <div class="form-group" align="center">
+                <label class="col-md-4 control-label">Movie Id</label>
+                <div class="col-md-4 inputGroupContainer">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                        <input name="movieId" id="movieId" placeholder="Movie Id" class="form-control" type="text">
+                    </div>
+                </div>
+            </div>
+    <div class="form-group" align="center">
+                <label class="col-md-4 control-label"></label>
+                <div class="col-md-4">
+               
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type="submit" class="btn btn-success">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspGet Movie <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>
+                </div>
+            </div>
+        </form>
+   

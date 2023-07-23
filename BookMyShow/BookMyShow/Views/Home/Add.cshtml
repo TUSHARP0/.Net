@@ -1,0 +1,99 @@
+﻿@{
+    ViewData["Title"] = "Add Movie";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Add Movie</h1>
+
+    
+            <div class="container">
+
+            <form class="well form-horizontal" action="/Home/Add" method="post" id="contact_form">
+                    <fieldset>
+
+                        <!-- Form Name -->
+                        <legend><center><h2><b>Add Movie</b></h2></center></legend>
+                        <br>
+
+                        <!-- Text input-->
+
+                <div class="form-group" align="center">
+                            <label class="col-md-4 control-label">Movie Id</label>
+                            <div class="col-md-4 inputGroupContainer">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input name="movieId" id="movieId" placeholder="Movie Id" class="form-control" type="text">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Text input-->
+
+                <div class="form-group" align="center">
+                    <label class="col-md-4 control-label">Movie Name</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input name="movieName" id="movieName" placeholder="Movie Name" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group" align="center">
+                    <label class="col-md-4 control-label">Actor Name</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input name="actorName" id="actorName" placeholder="Actor Name" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+
+                        <!-- Text input-->
+
+                <div class="form-group" align="center">
+                    <label class="col-md-4 control-label">Ticket Price</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input name="ticketPrice" id="ticketPrice" placeholder="Ticket Price" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+
+                        <!-- Text input-->
+
+                <div class="form-group" align="center">
+                    <label class="col-md-4 control-label">Release Date</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input name="releaseDate" id="releaseDate" placeholder="Release Date" class="form-control" type="date">
+                        </div>
+                    </div>
+                </div>
+
+                       
+
+                        <!-- Select Basic -->
+                        <!-- Success message -->
+@*                        <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Success!.</div>
+*@
+                        <!-- Button -->
+                        <div class="form-group" align="center">
+                            <label class="col-md-4 control-label"></label>
+                            <div class="col-md-4">
+                                <br>
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type="submit" class="btn btn-danger">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAdd Movie <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>
+                            </div>
+                        </div>
+
+                    </fieldset>
+                </form>
+            </div>
+        </div><!-- /.container -->
+        
+    
+
+
+  
